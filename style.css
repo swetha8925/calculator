@@ -1,0 +1,82 @@
+/* Basic Reset */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-align: center;
+    color: red;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    background-color: f4f4f4;
+    color:lightseagreen;
+    text-align: right;
+    text-align: top-right;
+}
+.social-media-icons {
+    display: flex;
+    gap: 10px; /* Adjust the spacing between icons */
+    justify-content: center; /* Center the icons horizontally */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.social-icon {
+    color: #333; /* Default color for the icons */
+    font-size: 24px; /* Size of the icons */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.social-icon:hover {
+    color: #007bff; /* Color when hovering over the icons */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+
+header {
+    background:rgb(122, 229, 233);
+    color: black;
+    padding: 20px 0;
+    text-align: top-right;
+    text-decoration-line: none;
+    text-overflow:inherit;
+    
+}
+
+header h1 {
+    margin-bottom: 1px;
+    text-align: left;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration: none;
+}
+
+main {
+    padding: 15px;
+}
+
+footer {
+    background:black;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
